@@ -1,8 +1,8 @@
 <?php
-$hostname = "sql.njit.edu";
-$username = "edc7" ;
-$project = "edc7" ;
-$password = "IT2021234" ;
+$hostname = "sql.xxx.edu";
+$username = "xxxx" ;
+$project = "xxx" ;
+$password = "xxxx" ;
 ($dbh = mysql_connect ($hostname,$username,$password) ) or die ("Unable to connect to MySQL database");
 mysql_select_db ($project);
 
